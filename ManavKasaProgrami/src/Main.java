@@ -8,6 +8,7 @@ public class Main {
         int armutKilo, elmaKilo, domatesKilo, muzKilo, patlicanKilo;
         double toplamTutar, armut = 2.14, elma = 3.67, domates = 1.11, muz = 0.95, patlıcan = 5.0;
 
+        //Kullanıcıdan veri alma
         Scanner input = new Scanner(System.in);
         System.out.print("Kaç kilo armut aldınız?");
         armutKilo = input.nextInt();
@@ -20,6 +21,7 @@ public class Main {
         System.out.print("Kaç kilo patlıcan aldınız?");
         patlicanKilo = input.nextInt();
 
+        //Sonucu Hesaplayıp ekrana yazma
         toplamTutar = (armut * armutKilo) + (elma * elmaKilo) + (domates * domatesKilo) + (muz * muzKilo) + (patlıcan * patlicanKilo);
         System.out.println("Toplam tutar" + toplamTutar);
     }
