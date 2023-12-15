@@ -7,12 +7,14 @@ public class Main {
 
         double boy, kilo, indeks;
 
+        //Kullanıcıdan veri alma
         Scanner input = new Scanner(System.in);
         System.out.print("Lütfen boyunuzu metre cinsinden giriniz :");
         boy = input.nextDouble();
         System.out.print("Lütfen kilonuzu giriniz :");
         kilo = input.nextDouble();
 
+        //Sonucu Hesaplama
         indeks = kilo / ( boy * boy );
         System.out.println("Vücut Kitle İndeksiniz :" + indeks);
 
