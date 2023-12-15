@@ -20,7 +20,7 @@ public class Main {
         System.out.print("Kaç kilo patlıcan aldınız?");
         patlicanKilo = input.nextInt();
 
-        toplamTutar = (armut * armutKilo) +(elma * elmaKilo) + (domates * domatesKilo) + (muz * muzKilo) + (patlıcan * patlicanKilo);
+        toplamTutar = (armut * armutKilo) + (elma * elmaKilo) + (domates * domatesKilo) + (muz * muzKilo) + (patlıcan * patlicanKilo);
         System.out.println("Toplam tutar" + toplamTutar);
     }
 }
