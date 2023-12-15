@@ -16,7 +16,7 @@ public class Main {
         c = input.nextInt();
 
         //Sonucu yazdır
-        sonuc = ((a + b) * c) - b;
+        sonuc = a + b * c - b;
         System.out.println("İşlemin sonucu : " + sonuc);
     }
 }
