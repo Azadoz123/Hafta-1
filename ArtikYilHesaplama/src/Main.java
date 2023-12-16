@@ -13,7 +13,7 @@ public class Main {
 
         //Artık yıl bulma
         if(yil % 4 == 0){
-            if( (yil % 100 == 0) && (yil % 400 == 0)){
+            if( (yil % 100 == 0) && (yil % 400 != 0)){
                 System.out.println(yil + " bir artık yıl değildir ! !");
             }else {
                 System.out.println(yil +" bir artık yıldır !");
