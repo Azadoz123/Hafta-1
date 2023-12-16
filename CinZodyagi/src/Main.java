@@ -6,10 +6,13 @@ public class Main {
     public static void main(String[] args) {
         int dogumYili, kalan;
         String sonuc="";
+
+        //Kullanıcıdan veri alma
         Scanner input = new Scanner(System.in);
         System.out.print("Doğum Yılınızı Giriniz : ");
         dogumYili = input.nextInt();
 
+        //Kalana göre hayvan adı bulunur
         kalan = dogumYili % 12;
         if(kalan == 0){
             sonuc = "Maymun";
@@ -36,6 +39,8 @@ public class Main {
         }else if (kalan == 11) {
             sonuc = "Koyun";
         }
+
+        //Sonucu yazdırma
         System.out.println("Çin Zodyağı Burcunuz : " + sonuc);
     }
 }
